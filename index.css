@@ -1,0 +1,176 @@
+/* global section css*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.btn{
+        width: 150px;
+        height: 40px;
+        color: white;
+        background-color: black;
+    
+}
+.btn:hover{
+        background-color:gray;
+    
+}
+/* header section css */
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    width: 100%;
+    position: fixed;
+
+    
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    
+    margin-right: 10px;
+    color: white;
+
+}
+nav ul li a:hover{
+    background-color: #787878;
+    cursor: pointer;
+
+}
+
+
+/* hero section css */
+.hero-section{
+    background-image: url(image/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 10rem 0;
+    width: 100%;
+    text-align: center;
+}
+.hero-section h2{
+    font-size: 5rem;
+    margin: 10px 0;
+}
+.hero-section p{
+    font-size: 2rem;
+}
+
+/* about section css */
+.global-section{
+    padding: 3rem 0;
+}
+.about-heading{
+    font-size: 55px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.about-head-p{
+    color: #787878;
+    text-align: center;
+}
+.about_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+}
+.about_main img{
+    height:40rem ;
+    width:40rem ;
+}
+.about_child{
+    width: 500px;
+    margin-left: 2rem;
+}
+
+.about_child h2{
+font-size: 33px;
+}
+.about_child p{
+    color: #787878;
+    margin: 15px 0;
+}
+/* service section css */
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid_item{
+    padding: 50px;
+    text-align: center;
+}
+.grid_item h2{
+  margin: 15px 0;
+}
+.grid_item p{
+  color: #787878;
+}
+.custom-icon-size{
+    font-size: 60px;
+}
+/* work section css */
+.work-img{
+    width: 390px;
+;
+}
+.work_item{
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+}
+/* testimonial section css */
+.testimonial-p{
+    color: black !important ;
+    margin-top: 5px;
+}
+
+/* contact section css */
+.contact-heading{
+    font-size: 55px;
+    text-align: center;
+}
+form{
+    margin-left: 33rem;
+    margin-top: 20px;
+}
+form input,
+textarea{
+    width: 450px;
+}
+.submit-btn{
+    width: 150px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10rem;
+}
+.submit-btn:hover{
+    background-color:grey; 
+}
+/* footer section css */
+footer{
+    background-color: black;
+    color: white;
+    height: 3rem;
+    text-align: center;
+}
+footer p{
+    padding-top: 15px;
+
+    
+}
+
