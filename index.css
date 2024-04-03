@@ -87,8 +87,8 @@ nav ul li a:hover{
     padding: 3rem 0;
 }
 .about_main img{
-    height:40rem ;
-    width:40rem ;
+    height:20rem ;
+    width:20rem ;
 }
 .about_child{
     width: 500px;
@@ -126,11 +126,11 @@ font-size: 33px;
     width: 390px;
 ;
 }
-.work_item{
+/* .work_item{
     display: grid;
     grid-template-columns: auto;
     text-align: center;
-}
+} */
 /* testimonial section css */
 .testimonial-p{
     color: black !important ;
